@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup_style.css">
+</head>
+<body>
+    <div>
+    <h2>Create your Account</h2>
+    <h4>Become one of the thousands of booklovers on Bookhive!</h4>
+    <form method="POST">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Enter your Name" minlength="3" required>
+        <br>
+        <br>
+        <label for="birth">Date of Birth</label>
+        <input id="birth" type="date" name="birth" required>
+        <br>
+        <br>
+        <label for="num">Mobile Number</label>
+        <input id="num" type="tel" name="num" placeholder="10 digit mobile number" required>
+        <br>
+        <br>
+        <label for="email">Email Address</label>
+        <input id="email" type="email" name="email" placeholder="abc@email.com" required>
+        <br>
+        <br>
+        <label for="password">Create password</label>
+        <input id="password" type="password" name="password" placeholder="At least 8 characters" minlength="8" required>
+        <br>
+        <br>
+        <label for="confirm-password">Confirm password</label>
+        <input id="confirm-password" type="password" name="confirm-password" placeholder="Re-enter your password" minlength="8" required>
+        <br>
+        <br>
+        <label for="city">Enter your City name</label>
+        <select id="city" name="city" required>
+            <option value="">Select Your City</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Bombay">Bombay</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Lucknow">Lucknow</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="box">
+        <input id="box" type="checkbox" required>
+        I agree to all the terms and conditions.
+        </label>
+        <br>
+        <label for="news">
+        <input id="news" type="checkbox">
+        Subscribe to weekly recommendations.
+        <br>
+        <br>
+        <button><a href="submit.html">Submit</a></button>
+        </label>
+        </form>
+    </div>
+</body>
+</html>

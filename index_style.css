@@ -1,0 +1,114 @@
+nav{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: antiquewhite;
+}
+body{
+    margin: 0px;
+}
+main{
+    text-align: center;
+    margin-top: 60px;
+}
+section{
+    margin: 20px;
+}
+#category{
+    display: flex;
+}
+h3{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(147, 196, 168);
+    cursor: pointer;
+}
+#title{
+    font-family: 'Sancreek';
+    color: antiquewhite;
+    font-size: 40px;
+}
+main{
+    background-image: url('https://images.pexels.com/photos/34741722/pexels-photo-34741722.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(147, 196, 168);
+}
+#heading{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+#featured_books{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+body{
+    background-color: rgb(206, 229, 249);
+
+}
+#featured_books div{
+    background: linear-gradient(rgb(147, 196, 168),antiquewhite);
+    width: 250px;
+    padding: 10px;
+    height: 470px;
+}
+#featured_books img{
+    height: 200px;
+}
+#featured_books button{
+    padding: 7px;
+    cursor: pointer;
+}
+.original{
+    text-decoration: line-through;
+}
+.bkname{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    color: antiquewhite;
+    padding: 10px;
+}
+footer a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+#all{
+    display: flex;
+    justify-content: space-around;
+    gap:10px
+}
+#all div{
+    text-align: center;
+    background: linear-gradient(rgb(147, 196, 168),antiquewhite);
+    width: 250px;
+    padding: 10px;
+    height: 400px;
+}
+#all img{
+    height: 200px;
+}
+#category a:hover{
+    color: rgb(40, 126, 77);
+}
+#cat{
+    padding-left: 20px;
+}

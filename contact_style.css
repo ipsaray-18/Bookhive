@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: antiquewhite;
+}
+*{
+    text-align: center;
+}
+input{
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+}
+button{
+    border: none;
+    background-color: rgb(147, 196, 168);
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px;
+}
+button:hover{
+    transform: scale(1.12);
+    transition: all 0.4s;
+}
+form{
+    margin-inline-start: 33%;
+    width: 400px;
+    padding: 10px;
+    background:linear-gradient(rgb(147, 196, 168),antiquewhite);
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.pexels.com/photos/9247612/pexels-photo-9247612.jpeg');
+}
+h4{
+    color: antiquewhite;
+}
+.end{
+    color: antiquewhite;
+}

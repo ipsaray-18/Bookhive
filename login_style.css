@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: antiquewhite;
+}
+body{
+    margin: 0px;
+}
+*{
+    text-align: center;
+}
+main{
+    text-align: center;
+    justify-content: center;
+}
+div{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 90px;
+    width: 500px;
+    margin-left: 30%;
+    border: 15px solid rgb(147, 196, 168);
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/9247612/pexels-photo-9247612.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+input{
+    background-color: antiquewhite;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+}
+button{
+    background-color: rgb(147, 196, 168);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+button:hover{
+    transform: scale(1.12);
+    transition: all 0.4s;
+    cursor: pointer;
+}

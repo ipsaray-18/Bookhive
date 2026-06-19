@@ -1,0 +1,29 @@
+a{
+    color: brown;
+    text-decoration: none;
+}
+button{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+button:hover{
+    transform: scale(1.12);
+    transition: all 0.4s;
+}
+*{
+    text-align: center;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/9247612/pexels-photo-9247612.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+h3{
+    padding: 10px;
+}
